@@ -1,0 +1,213 @@
+[
+    {
+      "id": "1",
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 699,
+      "quantity": 0
+    },
+    {
+      "id": "2",
+      "name": "Backpack",
+      "category": "Accessories",
+      "price": 49.99,
+      "quantity": 0
+    },
+    {
+      "id": "3",
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 79.99,
+      "quantity": 0
+    },
+    {
+      "id": "4",
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 999,
+      "quantity": 0
+    },
+    {
+      "id": "5",
+      "name": "Headphones",
+      "category": "Electronics",
+      "price": 129.99,
+      "quantity": 0
+    },
+    {
+      "id": "6",
+      "name": "T-shirt",
+      "category": "Clothing",
+      "price": 19.99,
+      "quantity": 0
+    },
+    {
+      "id": "7",
+      "name": "Gaming Console",
+      "category": "Electronics",
+      "price": 399.99,
+      "quantity": 0
+    },
+    {
+      "id": "8",
+      "name": "Watch",
+      "category": "Accessories",
+      "price": 149.99,
+      "quantity": 0
+    },
+    {
+      "id": "9",
+      "name": "Dress",
+      "category": "Clothing",
+      "price": 79.99,
+      "quantity": 0
+    },
+    {
+      "id": "10",
+      "name": "Tablet",
+      "category": "Electronics",
+      "price": 299.99,
+      "quantity": 0
+    },
+    {
+      "id": "11",
+      "name": "Sneakers",
+      "category": "Footwear",
+      "price": 129.99,
+      "quantity": 0
+    },
+    {
+      "id": "12",
+      "name": "Backpack",
+      "category": "Accessories",
+      "price": 69.99,
+      "quantity": 0
+    },
+    {
+      "id": "13",
+      "name": "Smartwatch",
+      "category": "Electronics",
+      "price": 199.99,
+      "quantity": 0
+    },
+    {
+      "id": "14",
+      "name": "Jacket",
+      "category": "Clothing",
+      "price": 129.99,
+      "quantity": 0
+    },
+    {
+      "id": "15",
+      "name": "Speaker",
+      "category": "Electronics",
+      "price": 99.99,
+      "quantity": 0
+    },
+    {
+      "id": "16",
+      "name": "Jeans",
+      "category": "Clothing",
+      "price": 59.99,
+      "quantity": 0
+    },
+    {
+      "id": "17",
+      "name": "Sunglasses",
+      "category": "Accessories",
+      "price": 29.99,
+      "quantity": 0
+    },
+    {
+      "id": "18",
+      "name": "Fitness Tracker",
+      "category": "Electronics",
+      "price": 79.99,
+      "quantity": 0
+    },
+    {
+      "id": "19",
+      "name": "Sweater",
+      "category": "Clothing",
+      "price": 49.99,
+      "quantity": 0
+    },
+    {
+      "id": "20",
+      "name": "Earbuds",
+      "category": "Electronics",
+      "price": 59.99,
+      "quantity": 0
+    },
+    {
+      "id": "21",
+      "name": "Hiking Boots",
+      "category": "Footwear",
+      "price": 149.99,
+      "quantity": 0
+    },
+    {
+      "id": "22",
+      "name": "Handbag",
+      "category": "Accessories",
+      "price": 89.99,
+      "quantity": 0
+    },
+    {
+      "id": "23",
+      "name": "Desktop Computer",
+      "category": "Electronics",
+      "price": 1299.99,
+      "quantity": 0
+    },
+    {
+      "id": "24",
+      "name": "Scarf",
+      "category": "Accessories",
+      "price": 19.99,
+      "quantity": 0
+    },
+    {
+      "id": "25",
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 39.99,
+      "quantity": 0
+    },
+    {
+      "id": "26",
+      "name": "Polo Shirt",
+      "category": "Clothing",
+      "price": 29.99,
+      "quantity": 0
+    },
+    {
+      "id": "27",
+      "name": "Digital Camera",
+      "category": "Electronics",
+      "price": 399.99,
+      "quantity": 0
+    },
+    {
+      "id": "28",
+      "name": "Wallet",
+      "category": "Accessories",
+      "price": 49.99,
+      "quantity": 0
+    },
+    {
+      "id": "29",
+      "name": "Tennis Shoes",
+      "category": "Footwear",
+      "price": 89.99,
+      "quantity": 0
+    },
+    {
+      "id": "30",
+      "name": "Smart Scale",
+      "category": "Electronics",
+      "price": 49.99,
+      "quantity": 0
+    }
+  ]
+  

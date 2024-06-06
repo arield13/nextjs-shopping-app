@@ -1,0 +1,155 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tr th,
+.tr td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px; /* Increased padding for better readability */
+}
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.tr {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.tr.header {
+  font-weight: bold;
+}
+
+.tr > div {
+  padding: 8px;
+}
+
+.tr > div:last-child {
+  margin-left: auto;
+}
+
+.button {
+  margin-left: 8px;
+}
+
+.tr th {
+  background-color: #f2f2f2;
+  font-weight: bold; /* Make table headers bold */
+}
+
+/* Style for alternate table rows */
+.tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Style for table header cells */
+.th {
+  font-size: 16px; /* Increase font size for table headers */
+  color: #333; /* Darker text color for better contrast */
+}
+
+/* Style for table data cells */
+.td {
+  font-size: 14px; /* Decrease font size for table data */
+  color: #555; /* Slightly darker text color */
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.favorites {
+  flex: 1;
+}
+
+.productList {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.productItem {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+
+.favoriteList {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.cnt {
+  height: 500px; /* Adjust as needed */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+.dropText {
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.favoriteItem {
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+}
+
+.favoriteItem span {
+  margin-right: 10px; /* Add margin to the right of the product name */
+}
+
+.favoriteItem button {
+  background-color: #ff6347; /* Red color for the remove button */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products {
+  flex: 1;
+  margin-right: 20px;
+  max-height: 500px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable vertical scroll */
+}
+
+.favorites {
+  flex: 1;
+  max-height: 500px; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable vertical scroll */
+}
+
+.productList {
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto; /* Enable vertical scroll */
+}
+
+.favoriteList {
+  list-style-type: none;
+  padding: 0;
+  overflow-y: auto; /* Enable vertical scroll */
+}
