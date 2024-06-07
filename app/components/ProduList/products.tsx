@@ -3,7 +3,7 @@ import styles from './products.module.css';
 import { ADD_TO_CART } from '@/app/store/types/cartTypes';
 import { useDispatch } from 'react-redux';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
-import { ADD_TO_FAVORITES, REMOVE_FROM_FAVORITES, REORDER_FAVORITES } from '@/app/store/types/favoritesTypes';
+import { ADD_TO_FAVORITES, FETCH_FAVORITES_STORAGE, REMOVE_FROM_FAVORITES, REORDER_FAVORITES } from '@/app/store/types/favoritesTypes';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/app/store/store';
 import { Product } from '@/app/interfaces/Product';
@@ -58,6 +58,9 @@ const ProductsList = () => {
   const handleRemoveFromFavorite = (productId: string) => {
     if (window.confirm('Are you sure you want to remove this product from favorites?')) {
       dispatch({ type: REMOVE_FROM_FAVORITES, payload: productId });
+      // Remove from localStorage
+      const updatedFavorites = favoriteItems.filter(item => item.id !== productId);
+      localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
     }
   };
 
